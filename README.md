@@ -5,11 +5,11 @@
 A complete end-to-end project for predicting telecom customer churn using Python, ML models, and an interactive Streamlit dashboard.
 
 ### 🚀 Features
-  Machine Learning Pipeline
-  Synthetic data generation
-  Preprocessing + feature engineering
-  Models trained: Logistic Regression, Random Forest, XGBoost
-  Best model auto-selected (ROC-AUC)
+  -Machine Learning Pipeline
+  -Synthetic data generation
+  -Preprocessing + feature engineering
+  -Models trained: Logistic Regression, Random Forest, XGBoost
+  -Best model auto-selected (ROC-AUC)
 
 ### Artifacts saved (.pkl, dataset, features)
   🔹 Streamlit Dashboard
