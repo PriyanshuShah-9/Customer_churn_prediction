@@ -4,52 +4,40 @@
 
 A complete end-to-end project for predicting telecom customer churn using Python, ML models, and an interactive Streamlit dashboard.
 
-🚀 Features
-🔹 Machine Learning Pipeline
+### 🚀 Features
+  Machine Learning Pipeline
+  Synthetic data generation
+  Preprocessing + feature engineering
+  Models trained: Logistic Regression, Random Forest, XGBoost
+  Best model auto-selected (ROC-AUC)
 
-Synthetic data generation
+### Artifacts saved (.pkl, dataset, features)
+  🔹 Streamlit Dashboard
+  📊 Overview metrics
+  📈 Model performance comparison
+  🎯 Real-time churn prediction
+  👥 Customer segmentation & insights
 
-Preprocessing + feature engineering
+### 📁 Project Structure
+  churn_prediction.py   Train + Dashboard
+  churn_model.pkl
+  scaler.pkl
+  label_encoders.pkl
+  customer_data.csv
+  test_data.pkl
 
-Models trained: Logistic Regression, Random Forest, XGBoost
-
-Best model auto-selected (ROC-AUC)
-
-Artifacts saved (.pkl, dataset, features)
-
-🔹 Streamlit Dashboard
-
-📊 Overview metrics
-
-📈 Model performance comparison
-
-🎯 Real-time churn prediction
-
-👥 Customer segmentation & insights
-
-📁 Project Structure
-churn_prediction.py   Train + Dashboard
-churn_model.pkl
-scaler.pkl
-label_encoders.pkl
-customer_data.csv
-test_data.pkl
-
-🧰 # Installation
-pip install -r requirements.txt
-
+### 🧰 Installation
+  pip install -r requirements.txt
 
 Or install manually:
-
 pip install pandas numpy scikit-learn xgboost streamlit plotly joblib
 
-⚙️ # Train the Model
+⚙️ Train the Model
 python churn_prediction.py
 
-🖥️ # Run the Dashboard
+🖥️ Run the Dashboard
 streamlit run churn_prediction.py --dashboard
 
-🧠 # Tech Stack
-
+### 🧠 Tech Stack
 Python • Pandas • NumPy • Scikit-Learn • XGBoost •
 Streamlit • Plotly • Joblib
